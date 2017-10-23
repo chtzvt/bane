@@ -1,9 +1,8 @@
-bane:bane.c
-	gcc -o bane bane.c
+bane:src/bane.c
+	gcc -o build/bane src/bane.c
 
-install:bane
-	install -c bane /usr/local/bin/bane
+install:build/bane
+	install -c build/bane /usr/local/bin/bane
 
-clean:bane
-	rm -f bane
-
+clean:build/bane
+	rm -f build/bane
