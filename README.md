@@ -3,7 +3,13 @@ Generate Baneposts quickly and easily from the command line.
 
 [This project](https://blog.ctis.me/banepost-c-easy-baneposting-for-the-linux-enthusiast-5742dc6ccdfa) originally started as a small Gist, but has since been moved to its own repository.
 
-## Installation
+## Installing Bane with Homebrew
+
+```
+brew tap ctrezevant/bane https://github.com/ctrezevant/bane.git && brew install bane
+```
+
+## Compiling from Source
 
 _Installing and using Bane is a simple matter of_:
 
